@@ -1,0 +1,49 @@
+table.cebra {
+    font-family: Tahoma,Verdana,Arial;
+    font-size: .67em;
+    color: #444;
+    width: 100%;
+    border-left: 1px solid #0c4163;
+    border-right: 1px solid #0c4163;
+    border-bottom: 1px solid #0c4163;
+    border-collapse: collapse;
+}
+
+table.cebra caption {
+    color: #f4f7f9;
+    background-image: url("images/pi_cap.gif");
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    border-top: 1px solid #0c4163;
+    border-right: 1px solid #0c4163;
+    border-left: 1px solid #0c4163;
+    padding: 9px 7px;
+}
+
+table.cebra td, table.cebra th {
+    border: 1px solid #5284a4;
+    padding: 6px 10px;
+}
+
+table.cebra thead tr td, 
+table.cebra thead tr th,
+table.cebra tfoot tr td,
+table.cebra tfoot tr th {
+    background-image: url("images/pi_hf.gif");
+    font-weight: bold;
+    padding: 3px 10px;
+}
+
+table.cebra tbody tr:hover {
+    background-color: #5284a4;
+    color: #f4f7f9;
+}
+
+table.cebra tr:nth-of-type(odd) {
+    background-color: #f4f7f9;
+}
+
+table.cebra tr:nth-of-type(even) {
+    background-color: #fff;
+}

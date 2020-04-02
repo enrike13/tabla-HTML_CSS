@@ -1,0 +1,36 @@
+form.navy {
+    width: 100%;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: .8em;
+}
+
+form.navy legend {
+    border: 1px solid #0c4163;
+    padding: 6px 20px;
+    background-image: url('images/pi_cap.gif');
+    color: #fff;
+    font-weight: bold;
+}
+
+form.navy fieldset {
+    border: 1px solid #0c4163;
+    padding: 12px;
+    background-color: #f4f7f9;
+}
+
+form.navy label {
+    display: inline-block;
+}
+
+form.navy input[type='submit'] {
+    margin-top: 20px;
+}
+
+form.navy div.submit {
+    text-align: center;
+}
+
+form.navy input[type='text']:hover, textArea:hover {
+    background-color: #5284a4;
+    color: #f4f7f9;
+}
